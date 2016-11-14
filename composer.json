@@ -16,13 +16,23 @@
   ],
   "repositories": [
 	{
-		"type": "vcs",
-		"url": "https://github.com/route4me/route4me-php-sdk"
+		"type": "package",
+		"package": {
+		  "name": "r4m",
+		  "version": "0.1.0",
+		  "type": "package",
+		  "source": {
+			"url": "https://github.com/route4me/route4me-php-sdk",
+			"type": "git",
+			"reference": "master"
+		  }
+		}
 	}
   ],
 
   "require": {
-    "php": ">=5.3.0"
+    "php": ">=5.3.0",
+	"r4m": "*"
   },
 
   "require-dev": {
