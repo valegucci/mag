@@ -1,0 +1,13 @@
+{
+  "name": "onfleetwrapper",
+  "description": "onfleet wrapper for Route4Me",
+  "version": "1.0.0",
+  "license": [
+    "GPL-3.0.0"
+  ],
+  "autoload": {
+        "psr-4": {
+            "R4M\\Route4Me\\": ""
+        }
+  }
+}
