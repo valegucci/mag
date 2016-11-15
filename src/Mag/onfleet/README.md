@@ -1,4 +1,4 @@
 # Onefleet endpoints wrapping
 
-Workwave API doc: https://wwrm.workwave.com/api/
+Onefleet repository: https://github.com/anorgan/onfleet-client
 
