@@ -31,11 +31,24 @@
 	{
 		"type": "package",
 		"package": {
-		  "name": "onfleet",
+		  "name": "companies/onfleet",
 		  "version": "0.1.0",
 		  "type": "package",
 		  "source": {
-			"url": "https://github.com/billybateman/Onfleet-PHP",
+			"url": "https://github.com/anorgan/onfleet-client",
+			"type": "git",
+			"reference": "master"
+		  }
+		}
+	},
+	{
+		"type": "package",
+		"package": {
+		  "name": "companies/onfleet/delivery-manager",
+		  "version": "0.1.0",
+		  "type": "package",
+		  "source": {
+			"url": "https://github.com/lhcboinc/delivery-manager",
 			"type": "git",
 			"reference": "master"
 		  }
@@ -46,7 +59,8 @@
   "require": {
     "php": ">=5.3.0",
 	"r4m": "*",
-	"onfleet": "*"
+	"companies/onfleet": "*",
+	"companies/onfleet/delivery-manager": "*"
   },
 
   "require-dev": {
@@ -55,7 +69,7 @@
 
   "autoload": {
     "psr-0": {
-      "Route4Me": "src/"
+      "Mag": "src/"
     }
   }
 }
