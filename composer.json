@@ -53,6 +53,19 @@
 			"reference": "master"
 		  }
 		}
+	},
+	{
+		"type": "package",
+		"package": {
+		  "name": "companies/onfleet/php-wrapper",
+		  "version": "0.1.0",
+		  "type": "package",
+		  "source": {
+			"url": "https://github.com/billybateman/Onfleet-PHP",
+			"type": "git",
+			"reference": "master"
+		  }
+		}
 	}
   ],
 
@@ -60,7 +73,8 @@
     "php": ">=5.3.0",
 	"r4m": "*",
 	"companies/onfleet": "*",
-	"companies/onfleet/delivery-manager": "*"
+	"companies/onfleet/delivery-manager": "*",
+	"companies/onfleet/php-wrapper": "*"
   },
 
   "require-dev": {
